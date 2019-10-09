@@ -1,0 +1,63 @@
+.first {
+ background-color: white;
+ border: 10px solid white;
+ text-align:justify;
+}
+
+.second {
+    overflow:hidden;
+    
+}
+.secondetail {
+ background-color: #99CCFF;
+ border: 4px solid #1D2475;
+ border-radius: 15px;
+ padding: 5px;
+ margin-top: 10px;
+ overflow:hidden;
+}
+.secondetail img {
+    float:right;
+    overflow:hidden;
+}
+.link {
+    border: 4px solid #1D2475;
+    border-radius: 15px;
+    width: 150px;
+    background-color: #3366CC;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+}
+.pic {
+    float:right;
+}
+.high {
+ background-color: #1d2475;
+ color: white;
+ text-align:right;
+}
+.pur {
+ border-bottom: 2px dashed blue;
+}
+h1 {
+    font-weight: bold;
+}
+
+.high h2 {
+    color:#CCCCCC;
+    font-size: 14pt;
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+}
+body {
+    margin-left:10%;
+    margin-right:10%;
+    background-image: url("images/blueTextureBG.jpg");
+}
+*:hover:not([class]):not(html):not(ul) {
+    background-color: #A6CE39;
+}
