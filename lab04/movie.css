@@ -1,0 +1,130 @@
+body {
+    background-image: url('background.png');
+    background-repeat: repeat;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    padding:0px;
+    margin:0px;
+    
+}
+.overall {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 4px gray;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.leftcenter{
+    width: 550px;
+    background-image: url('rbg.png');
+    background-size: 550px 83px;
+    background-repeat: repeat-x;
+    
+}
+
+.leftbanner img{
+    height: 83px;
+    vertical-align: bottom;
+}
+.opinion {
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: solid 2px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 8px;
+
+}
+
+.leftbanner {
+    color: red;
+    font-weight: bold;
+    font-size: 48pt;
+    
+}
+
+.rightcenter {
+    width:250px;
+    background-color:#A2B964;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+}
+.rightcenter dt{
+    margin-top:10pt;
+    font-weight: bold;
+    margin-left: 10pt;
+}
+.rightcenter ul{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.center {
+    height: 50px;
+    background-image:url("bannerbg.png");
+    background-repeat: repeat-x;
+    
+}
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header { 
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    
+}
+
+h1 {
+    font-size: 24pt;
+    font-style: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+.opinion + p{
+    margin-bottom: 20pt;
+    text-align-last: auto;
+}
+
+.opinion img{
+    margin-right:5px;
+    float: left;
+}
+
+.left_review{
+    margin-left: 2%;
+    width: 47%;
+    float: left;
+}
+.right_review{
+    margin-right: 2%;
+    width: 47%;
+    float: right;
+}
+.overall span{
+    font-style: italic;
+    font-size: 8pt;
+    margin-top:5px;
+}
+.leftcenter + p {
+    background-color: #A2B964;
+    margin: 0px;
+    padding: 5px;
+    text-align:center;
+    clear:both;
+}
+.footer {
+    position: fixed;
+    right:0;
+    bottom:0;
+    opacity:0.5;
+
+}
