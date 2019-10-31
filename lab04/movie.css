@@ -21,6 +21,7 @@ body {
     background-image: url('rbg.png');
     background-size: 550px 83px;
     background-repeat: repeat-x;
+
     
 }
 
@@ -28,7 +29,7 @@ body {
     height: 83px;
     vertical-align: bottom;
 }
-.opinion {
+.opinion>p:first-child {
     font-size: 8pt;
     font-weight: bold;
     background-color: #E8DC9B;
@@ -36,13 +37,22 @@ body {
     border-radius: 10px;
     overflow: hidden;
     padding: 8px;
+}
+.opinion {
+    margin-bottom:20pt;
+}
 
+img.rot {
+    float: left;
+    margin-right: 5px;
 }
 
 .leftbanner {
     color: red;
     font-weight: bold;
     font-size: 48pt;
+    align-items:center;
+    display: flex;
     
 }
 
@@ -89,15 +99,7 @@ h1 {
     text-shadow: 3px 3px #999999;
     text-align: center;
 }
-.opinion + p{
-    margin-bottom: 20pt;
-    text-align-last: auto;
-}
 
-.opinion img{
-    margin-right:5px;
-    float: left;
-}
 
 .left_review{
     margin-left: 2%;
@@ -105,9 +107,10 @@ h1 {
     float: left;
 }
 .right_review{
-    margin-right: 2%;
     width: 47%;
-    float: right;
+    margin-left : 2%;
+    float:left;
+    
 }
 .overall span{
     font-style: italic;
