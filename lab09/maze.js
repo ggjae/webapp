@@ -11,9 +11,9 @@ window.onload = function() {
         bound[i].onmouseover = overBoundary;
     }
     $("end").onmouseover = overEnd;
-    $("start").observe("click", startClick);
-    $("maze").observe("mouseout", overBody);
-    $("maze").observe("mousemove", overBody);
+    $("start").onclick = startClick;
+    $("maze").onmouseout = overBody;
+    document.body.observe("mousemove", overBody);
 };
 
 // called when mouse enters the walls; 
